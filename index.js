@@ -1,6 +1,6 @@
 // import * as express from "express";
 // import * as bodyParser from "body-parser";
-// import * as pug from "pugr";
+// import * as pug from "pug";
 // import * as Webtask from "webtask-tools";
 
 const express = require("express");
@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 app.get("/", (req, res) =>
     res.send(
         pug.render("p Hello #{name}", {
-            name: req.param("name") + ' ' + process.version
+            name: req.param("name")
         })
     )
 );
