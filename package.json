@@ -1,25 +1,25 @@
 {
-  "name": "webtask-express",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/reynish/webtask-express.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/reynish/webtask-express/issues"
-  },
-  "homepage": "https://github.com/reynish/webtask-express#readme",
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3",
-    "pug": "^2.0.3",
-    "webtask-tools": "^3.2.1"
-  }
+    "name": "webtask-express",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/reynish/webtask-express.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/reynish/webtask-express/issues"
+    },
+    "homepage": "https://github.com/reynish/webtask-express#readme",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "express": "^4.16.3",
+        "pug": "^2.0.3",
+        "webtask-tools": "^3.2.1"
+    }
 }
