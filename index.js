@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 app.get("/", (req, res) =>
     res.send(
         pug.render("p Hello #{name}", {
-            name: req.param("name")
+            name: req.param("name") + ' ' +process.version
         })
     )
 );
