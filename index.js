@@ -13,10 +13,6 @@ const app = express();
 app.use(bodyParser.json());
 
 var index = +`
-html
-    head
-        title Hello World
-    body
         p Hello #{name}
 `;
 
