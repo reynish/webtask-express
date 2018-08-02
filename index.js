@@ -12,13 +12,9 @@ const app = express();
 
 app.use(bodyParser.json());
 
-var index = +`
-        p Hello #{name}
-`;
-
 app.get('/', (req, res) =>
   res.send(
-    pug.render(index, {
+    pug.render('p Hello #{name}', {
       name: req.param('name'),
     })
   )
