@@ -22,7 +22,7 @@ html
 
 app.get('/', (req, res) =>
   res.send(
-    pug.render('p Hello #{name}', {
+    pug.render(index, {
       name: req.param('name'),
     })
   )
